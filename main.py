@@ -15,7 +15,8 @@ def main():
                 print(f"\nadmin not found. recheck once.")
             # print(student_details["218H1A5433"][-1])
         elif choice == "2":
-            admin_signup()
+            a = student_signup()
+            print({a})
         else:
             break
 if __name__ == "__main__":
